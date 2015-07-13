@@ -62,6 +62,11 @@ For those interested in **game and mobile development**, the IDE supports debugg
 [more-features]: http://studio.zerobrane.com/features
     </description>
     <projectUrl>http://studio.zerobrane.com/</projectUrl>
+    <packageSourceUrl>https://github.com/beforan/zerobrane-studio-chocolatey</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>-->
+    <docsUrl>http://studio.zerobrane.com/documentation</docsUrl>
+    <mailingListUrl>http://studio.zerobrane.com/community</mailingListUrl>
+    <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>Lua IDE</tags>
     <copyright>Paul Kulchenko, ZeroBrane® LLC 2012-14</copyright>
     <!--<licenseUrl>__REPLACE__</licenseUrl>-->
@@ -72,6 +77,7 @@ For those interested in **game and mobile development**, the IDE supports debugg
       <dependency id="zerobrane-studio.install" version="1.10.0.0" />
     </dependencies>
     <releaseNotes></releaseNotes>
+    <!--<provides></provides>-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
