@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>zerobrane-studio.install</id>
     <title>Zerobrane Studio (Install)</title>
-    <version>1.00</version>
+    <version>1.10</version>
     <authors>Paul Kulchenko,ZeroBrane® LLC</authors>
     <owners>beforan</owners>
     <summary>Lightweight IDE for your Lua needs</summary>
