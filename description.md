@@ -1,15 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>zerobrane-studio</id>
-    <title>Zerobrane Studio</title>
-    <version>1.10.0.0</version>
-    <authors>Paul Kulchenko,ZeroBrane® LLC</authors>
-    <owners>beforan</owners>
-    <summary>Lightweight IDE for your Lua needs</summary>
-    <description>
+This is the source of authority for the package description, to be used in all packages, based on the homepage at http://studio.zerobrane.com
+
+
 # Zerobrane Studio
 Lightweight IDE for your Lua needs
 
@@ -60,34 +51,3 @@ For those interested in **game and mobile development**, the IDE supports debugg
 [moai-lc]: http://notebook.kulchenko.com/zerobrane/live-coding-with-moai-and-zerobrane-studio
 [corona-lc]: http://notebook.kulchenko.com/zerobrane/debugging-and-live-coding-with-corona-sdk-applications-and-zerobrane-studio
 [more-features]: http://studio.zerobrane.com/features
-    </description>
-    <projectUrl>http://studio.zerobrane.com/</projectUrl>
-    <packageSourceUrl>https://github.com/beforan/zerobrane-studio-chocolatey</packageSourceUrl>
-    <!--<projectSourceUrl></projectSourceUrl>-->
-    <docsUrl>http://studio.zerobrane.com/documentation</docsUrl>
-    <mailingListUrl>http://studio.zerobrane.com/community</mailingListUrl>
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>Lua IDE</tags>
-    <copyright>Paul Kulchenko, ZeroBrane® LLC 2012-14</copyright>
-    <!--<licenseUrl>__REPLACE__</licenseUrl>-->
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <iconUrl>https://cdn.rawgit.com/beforan/zerobrane-studio-chocolatey/icon-1.0/icons/zbstudio.png</iconUrl>
-    <dependencies>
-      <dependency id="zerobrane-studio.install" version="1.10.0.0" />
-    </dependencies>
-    <releaseNotes>
-* Updated **zerobrane-studio.install** dependency to `1.10.0.0`
-* Updated Package Version to `1.10.0.0`
-* Updated Package Description to use Markdown formatting and include the full Zerobrane homepage description
-* Updated Package Nuspec to take advantage of some [Nuspec Enhancements Wave 1](https://github.com/chocolatey/choco/issues/205) features:
-    * Added `packageSourceUrl`
-    * Added `docsUrl`
-    * Added `mailingListUrl`
-    </releaseNotes>
-    <!--<provides></provides>-->
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
-</package>
