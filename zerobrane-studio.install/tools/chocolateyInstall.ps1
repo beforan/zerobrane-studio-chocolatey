@@ -1,6 +1,6 @@
 ﻿<#
 
-Currently (1.00) Zerobrane provides a portable .zip
+Currently Zerobrane provides a portable .zip
 and an "installer" .exe which is really a self-extracting zip
 that also adds a shortcut to the Start Menu.
 It doesn't have a default "install" location, nor does it get listed
@@ -23,7 +23,7 @@ $installPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 Install-ChocolateyZipPackage $name $url $installPath
 
 # For some unknown reason, this Lua file is read-only by default
-# which really screws with uninstallation!
+# which causes problems with uninstallation!
 # So we'll do something about it.
 attrib -r (join-path $installPath "myprograms/testwell.lua")
 
