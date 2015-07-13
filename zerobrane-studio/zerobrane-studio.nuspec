@@ -76,7 +76,15 @@ For those interested in **game and mobile development**, the IDE supports debugg
     <dependencies>
       <dependency id="zerobrane-studio.install" version="1.10.0.0" />
     </dependencies>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+* Updated **zerobrane-studio.install** dependency to `1.10.0.0`
+* Updated Package Version to `1.10.0.0`
+* Updated Package Description to use Markdown formatting and include the full Zerobrane homepage description
+* Updated Package Nuspec to take advantage of some [Nuspec Enhancements Wave 1](https://github.com/chocolatey/choco/issues/205) features:
+    * Added `packageSourceUrl`
+    * Added `docsUrl`
+    * Added `mailingListUrl`
+    </releaseNotes>
     <!--<provides></provides>-->
   </metadata>
   <files>

@@ -76,7 +76,20 @@ For those interested in **game and mobile development**, the IDE supports debugg
     <dependencies>
       <dependency id="chocolatey" version="0.9.9.8" />
     </dependencies>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+* Updated to install **Zerobrane Studio** version `1.10`
+* Updated Uninstall script to use `Uninstall-ChocolateyZipPackage`
+* Updated Package Version to `1.10.0.0`
+* Updated Package Description to use Markdown formatting and include the full Zerobrane homepage description
+* Updated Package Nuspec to take advantage of some [Nuspec Enhancements Wave 1](https://github.com/chocolatey/choco/issues/205) features:
+    * Added `packageSourceUrl`
+    * Added `docsUrl`
+    * Added `mailingListUrl`
+* Added **chocolatey** dependency `0.9.9.8` due to the following:
+    * `Uninstall-ChocolateyZipPackage` was reportedly fixed in `0.9.9.6`
+    *  Nuspec Enhancements Wave 1 was completed in `0.9.9.7`
+    *  Package tested on `0.9.9.8`
+    </releaseNotes>
     <!--<provides></provides>-->
   </metadata>
   <files>
