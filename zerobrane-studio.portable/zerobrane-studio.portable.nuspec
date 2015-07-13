@@ -73,9 +73,9 @@ For those interested in **game and mobile development**, the IDE supports debugg
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
     <iconUrl>https://cdn.rawgit.com/beforan/zerobrane-studio-chocolatey/icon-1.0/icons/zbstudio.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="chocolatey" version="0.9.9.8" />
+    </dependencies>
     <releaseNotes></releaseNotes>
     <!--<provides></provides>-->
   </metadata>

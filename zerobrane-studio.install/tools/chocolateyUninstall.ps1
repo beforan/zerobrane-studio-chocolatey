@@ -1,16 +1,7 @@
 ﻿$packageName = 'zerobrane-studio.install'
 $zipFileName = 'zerobrane-studio.installInstall.zip'
 
-# UnInstall-ChocolateyZipPackage doesn't work as expected in 0.9.9
-# So we'll do it manually!
-
-
-  
 try {
-	
-	# $packagelibPath=$env:chocolateyPackageFolder
-    # remove-item $packageLibPath -recurse
-	
 	UnInstall-ChocolateyZipPackage $packageName $zipFileName
 	
 	# Also remove the shortcut we added
