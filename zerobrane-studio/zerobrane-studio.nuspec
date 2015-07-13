@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>zerobrane-studio</id>
     <title>Zerobrane Studio</title>
-    <version>1.10.00.00</version>
+    <version>1.10.0.0</version>
     <authors>Paul Kulchenko,ZeroBrane® LLC</authors>
     <owners>beforan</owners>
     <summary>Lightweight IDE for your Lua needs</summary>
@@ -69,7 +69,7 @@ For those interested in **game and mobile development**, the IDE supports debugg
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
     <iconUrl>https://cdn.rawgit.com/beforan/zerobrane-studio-chocolatey/icon-1.0/icons/zbstudio.png</iconUrl>
     <dependencies>
-      <dependency id="zerobrane-studio.install" version="1.00" />
+      <dependency id="zerobrane-studio.install" version="1.10.0.0" />
     </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
