@@ -64,8 +64,24 @@ For those interested in **game and mobile development**, the IDE supports debugg
       <dependency id="zerobrane-studio.install" version="1.20.0.0" />
     </dependencies>
     <releaseNotes>
+Package changes
+
 * Updated **zerobrane-studio.install** dependency to `1.20.0.0`
 * Updated Package Version to `1.20.0.0`
+
+ZeroBrane Studio changes:
+
+* Added indexing of project files for project-wide symbol search.
+* Added support for `file@symbol` fuzzy search.
+* Improved auto-complete order of results and suggestions for case-sensitive matches.
+* Improved application performance and memory usage.
+* Improved memory handling for large files.
+* Updated Windows launcher to add dpi awareness for high dpi monitors.
+* Upgraded Lua 5.3 interpreter to `5.3.1`.
+* Fixed a memory leak after a search panel is opened.
+* Fixed an occasional crash from the filetree on Linux.
+
+Full details are in the [changelog](https://github.com/pkulchenko/ZeroBraneStudio/blob/master/CHANGELOG.md).
     </releaseNotes>
     <!--<provides></provides>-->
   </metadata>
