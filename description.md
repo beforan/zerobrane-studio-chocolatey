@@ -22,7 +22,7 @@ For those interested in **game and mobile development**, the IDE supports debugg
 [more-debugging]: http://studio.zerobrane.com/documentation#debugging
 
 ## Feature highlights
-* Small, portable, [open-source], and **cross-platform** ([Windows], [Mac OSX], and [Linux]);
+* Small, portable, open-source, and **cross-platform** ([Windows], [Mac OSX], and [Linux]);
 * **Auto-completion** for functions, keywords, and custom APIs;
 * **Interactive console** to test code snippets with local and remote execution;
 * [Live coding] with [Lua], [LÖVE][love-lc], [Gideros][gideros-lc], [Moai][moai-lc], [Corona][corona-lc], GSL-Shell and other Lua engines;
