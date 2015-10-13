@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>zerobrane-studio</id>
     <title>Zerobrane Studio</title>
-    <version>1.10.0.0</version>
+    <version>1.20.0.0</version>
     <authors>Paul Kulchenko,ZeroBrane® LLC</authors>
     <owners>beforan</owners>
     <summary>Lightweight IDE for your Lua needs</summary>
@@ -31,7 +31,7 @@ For those interested in **game and mobile development**, the IDE supports debugg
 [more-debugging]: http://studio.zerobrane.com/documentation#debugging
 
 ## Feature highlights
-* Small, portable, [open-source], and **cross-platform** ([Windows], [Mac OSX], and [Linux]);
+* Small, portable, open-source, and **cross-platform** ([Windows], [Mac OSX], and [Linux]);
 * **Auto-completion** for functions, keywords, and custom APIs;
 * **Interactive console** to test code snippets with local and remote execution;
 * [Live coding] with [Lua], [LÖVE][love-lc], [Gideros][gideros-lc], [Moai][moai-lc], [Corona][corona-lc], GSL-Shell and other Lua engines;
@@ -50,27 +50,38 @@ For those interested in **game and mobile development**, the IDE supports debugg
     </description>
     <projectUrl>http://studio.zerobrane.com/</projectUrl>
     <packageSourceUrl>https://github.com/beforan/zerobrane-studio-chocolatey</packageSourceUrl>
-    <!--<projectSourceUrl></projectSourceUrl>-->
+    <projectSourceUrl>https://github.com/pkulchenko/ZeroBraneStudio/</projectSourceUrl>
     <docsUrl>http://studio.zerobrane.com/documentation</docsUrl>
     <mailingListUrl>http://studio.zerobrane.com/community</mailingListUrl>
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>Lua IDE</tags>
     <copyright>Paul Kulchenko, ZeroBrane® LLC 2012-14</copyright>
-    <!--<licenseUrl>__REPLACE__</licenseUrl>-->
+    <licenseUrl>https://raw.githubusercontent.com/pkulchenko/ZeroBraneStudio/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
     <iconUrl>https://cdn.rawgit.com/beforan/zerobrane-studio-chocolatey/icon-1.0/icons/zbstudio.png</iconUrl>
     <dependencies>
-      <dependency id="zerobrane-studio.install" version="1.10.0.0" />
+      <dependency id="zerobrane-studio.install" version="1.20.0.0" />
     </dependencies>
     <releaseNotes>
-* Updated **zerobrane-studio.install** dependency to `1.10.0.0`
-* Updated Package Version to `1.10.0.0`
-* Updated Package Description to use Markdown formatting and include the full Zerobrane homepage description
-* Updated Package Nuspec to take advantage of some [Nuspec Enhancements Wave 1](https://github.com/chocolatey/choco/issues/205) features:
-    * Added `packageSourceUrl`
-    * Added `docsUrl`
-    * Added `mailingListUrl`
+Package changes
+
+* Updated **zerobrane-studio.install** dependency to `1.20.0.0`
+* Updated Package Version to `1.20.0.0`
+
+ZeroBrane Studio changes:
+
+* Added indexing of project files for project-wide symbol search.
+* Added support for `file@symbol` fuzzy search.
+* Improved auto-complete order of results and suggestions for case-sensitive matches.
+* Improved application performance and memory usage.
+* Improved memory handling for large files.
+* Updated Windows launcher to add dpi awareness for high dpi monitors.
+* Upgraded Lua 5.3 interpreter to `5.3.1`.
+* Fixed a memory leak after a search panel is opened.
+* Fixed an occasional crash from the filetree on Linux.
+
+Full details are in the [changelog](https://github.com/pkulchenko/ZeroBraneStudio/blob/master/CHANGELOG.md).
     </releaseNotes>
     <!--<provides></provides>-->
   </metadata>
