@@ -17,7 +17,7 @@ So the .install package only differs in that it adds a shortcut :)
 #>
 
 $name = 'zerobrane-studio.install'
-$url = 'https://download.zerobrane.com/ZeroBraneStudioEduPack-1.20-win32.zip'
+$url = 'https://download.zerobrane.com/ZeroBraneStudioEduPack-1.30-win32.zip'
 $installPath = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage $name $url $installPath
