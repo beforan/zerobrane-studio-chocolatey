@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>zerobrane-studio</id>
     <title>Zerobrane Studio</title>
-    <version>1.20.0.0</version>
+    <version>1.30.0.0</version>
     <authors>Paul Kulchenko,ZeroBrane® LLC</authors>
     <owners>beforan</owners>
     <summary>Lightweight IDE for your Lua needs</summary>
@@ -55,31 +55,34 @@ For those interested in **game and mobile development**, the IDE supports debugg
     <mailingListUrl>http://studio.zerobrane.com/community</mailingListUrl>
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>Lua IDE</tags>
-    <copyright>Paul Kulchenko, ZeroBrane® LLC 2012-14</copyright>
+    <copyright>Paul Kulchenko, ZeroBrane® LLC 2012-16</copyright>
     <licenseUrl>https://raw.githubusercontent.com/pkulchenko/ZeroBraneStudio/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
     <iconUrl>https://cdn.rawgit.com/beforan/zerobrane-studio-chocolatey/icon-1.0/icons/zbstudio.png</iconUrl>
     <dependencies>
-      <dependency id="zerobrane-studio.install" version="1.20.0.0" />
+      <dependency id="zerobrane-studio.install" version="1.30.0.0" />
     </dependencies>
     <releaseNotes>
 Package changes
 
-* Updated **zerobrane-studio.install** dependency to `1.20.0.0`
-* Updated Package Version to `1.20.0.0`
+* Updated **zerobrane-studio.install** dependency to `1.30.0.0`
+* Updated Package Version to `1.30.0.0`
 
 ZeroBrane Studio changes:
 
-* Added indexing of project files for project-wide symbol search.
-* Added support for `file@symbol` fuzzy search.
-* Improved auto-complete order of results and suggestions for case-sensitive matches.
-* Improved application performance and memory usage.
-* Improved memory handling for large files.
-* Updated Windows launcher to add dpi awareness for high dpi monitors.
-* Upgraded Lua 5.3 interpreter to `5.3.1`.
-* Fixed a memory leak after a search panel is opened.
-* Fixed an occasional crash from the filetree on Linux.
+* Added markers panel to show and navigate bookmarks and breakpoints.
+* Added saving/restoring bookmarks and breakpoints.
+* Added breakpoint prev/next navigation (Project | Breakpoint menu).
+* Added find/replace in selection to search operations.
+* Added printing of editor tabs and Console/Output windows (available on Windows and OSX).
+* Added recursive processing of configuration files (using include command).
+* Added outline.showcompact setting to keep outline more compact for large files.
+* Added opening multiple files from the Open dialog.
+* Updated Corona API for v2015.2731 and added handling of type inheritance.
+* Updated love2d API for v0.10.0.
+* Changed Toggle Breakpoint shortcut from F9 to Ctrl/Cmd-F9.
+* Removed Project | Break shortcut to avoid conflict with breakpoint navigation.
 
 Full details are in the [changelog](https://github.com/pkulchenko/ZeroBraneStudio/blob/master/CHANGELOG.md).
     </releaseNotes>
